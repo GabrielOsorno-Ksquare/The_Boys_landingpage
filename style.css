@@ -62,6 +62,10 @@ section {
     height: 40rem;
 }
 
+footer {
+    height: 10rem;
+}
+
 a:link {
     color: #041562;
     text-decoration: none;
