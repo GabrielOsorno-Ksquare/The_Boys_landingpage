@@ -1,81 +1,80 @@
 body {
-    margin: 0px;
-    background-color: #0D0D0D;
-    color: #EEEEEE;
-    font-family: 'Rajdhani', sans-serif;
+  margin: 0px;
+  background-color: #0d0d0d;
+  color: #eeeeee;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 header {
-    text-align: center;
-    background-image: url(https://wallpapers.com/images/hd/the-boys-amazing-seven-o6g0ozreh7h2v048-o6g0ozreh7h2v048.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 5rem;
-    height: 40rem;
+  text-align: center;
+  background-image: url(https://wallpapers.com/images/hd/the-boys-amazing-seven-o6g0ozreh7h2v048-o6g0ozreh7h2v048.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5rem;
+  height: 40rem;
 }
 
 h1 {
-    font-size: 13rem;
-    font-family: 'Rubik Distressed', cursive;
-    font-weight: normal;
-    margin-bottom: 2rem;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
+  font-size: 13rem;
+  font-family: 'Rubik Distressed', cursive;
+  font-weight: normal;
+  margin-bottom: 2rem;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
 }
 
 h2 {
-    color: #EEEEEE;
-    font-size: 5rem;
-    font-family: 'Permanent Marker', cursive;
-    font-weight: normal;
-    margin: 0px;
+  color: #eeeeee;
+  font-size: 5rem;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: normal;
+  margin: 0px;
 }
 
 h3 {
-    font-size: 4rem;
-    font-family: 'Rubik Glitch', cursive;
-    font-weight: normal;
-    margin: 0px;
+  font-size: 4rem;
+  font-family: 'Rubik Glitch', cursive;
+  font-weight: normal;
+  margin: 0px;
 }
 
 h4 {
-    font-size: 3rem;
-    font-family: 'Bebas Neue', cursive;
-    font-weight: normal;
-    margin: 0px;
+  font-size: 3rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: normal;
+  margin: 0px;
 }
 
 br {
-    margin: 5rem;
+  margin: 5rem;
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: #EEEEEE;
-    
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #e0e0e0;
 }
 
 section {
-    background-color: #010c28;
-    height: 40rem;
+  background-color: #010c28;
+  height: 40rem;
 }
 
 footer {
-    height: 10rem;
+  height: 10rem;
 }
 
 a:link {
-    color: #041562;
-    text-decoration: none;
+  color: #041562;
+  text-decoration: none;
 }
 
 .hero_title {
-    transform: rotate(-10deg);
-    margin-right: 35rem;
+  transform: rotate(-10deg);
+  margin-right: 35rem;
 }
 
 section.event {
-    background-color: #240105;
+  background-color: #240105;
 }
