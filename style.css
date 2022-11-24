@@ -59,6 +59,10 @@ nav {
 section {
   background-color: #010c28;
   height: 40rem;
+  padding-bottom: 4rem;
+  padding-left: 5rem;
+  padding-top: 4rem;
+  padding-right: 5rem;
 }
 
 footer {
@@ -75,6 +79,34 @@ a:link {
   margin-right: 35rem;
 }
 
-section.event {
+section.events,
+section.mtt {
   background-color: #240105;
+}
+
+.asd {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  padding-top: 2rem;
+  padding-right: 3rem;
+  background-color: rebeccapurple;
+  border-radius: 2rem;
+  height: 40vh;
+  width: 33vw;
+}
+.section_title {
+  width: 80%;
+}
+.section_title h3 {
+  margin-left: 2rem;
+}
+.schedule {
+  width: 30vw;
+}
+.schedule div {
+  display: flex;
+  justify-content: space-between;
 }
