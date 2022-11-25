@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  background-color: #0d0d0d;
+  color: #eeeeee;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+header {
+  text-align: center;
+  background-image: url(./assets/the_boys_wp.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 95.5vh;
+}
+.hero_title {
+  transform: rotate(-12deg);
+  margin-right: 35rem;
+}
+
+h1 {
+  font-size: 13rem;
+  font-family: 'Rubik Distressed', cursive;
+  font-weight: normal;
+  margin-bottom: 2rem;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  padding-top: 5.5vh;
+}
+
+h2 {
+  color: #eeeeee;
+  font-size: 5rem;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: normal;
+  margin: 0px;
+}
+
+h3 {
+  font-size: 4rem;
+  font-family: 'Rubik Glitch', cursive;
+  font-weight: normal;
+  margin: 0px;
+}
+
+h4 {
+  font-size: 3rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: normal;
+  margin: 0px;
+}
+
+br {
+  margin: 5rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #eeeeee;
+  height: 4.5vh;
+}
+nav a {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  height: 100%;
+}
+nav h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 1.8em;
+}
+a:link {
+  color: #041562;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #010c28;
+  color: #ffffff;
+  -webkit-transition: background-color 150ms linear;
+  -ms-transition: background-color 150ms linear;
+  transition: background-color 150ms linear;
+
+  -webkit-transition: color 140ms linear;
+  -ms-transition: color 140ms linear;
+  transition: color 140ms linear;
+}
+nav a:active {
+  background-color: #010c28;
+  color: #ffffff;
+}
+a.active {
+  background-color: #010c28;
+  color: #ffffff;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky2 {
+  position: fixed;
+  top: 0;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 0.5rem;
+  border-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+.active {
+  background-color: #010c28;
+  color: #ffffff;
+}
+
+section {
+  background-color: #010c28;
+  padding-bottom: 4rem;
+  padding-left: 6rem;
+  padding-top: 4rem;
+  padding-right: 6rem;
+}
+section#events {
+  display: flex;
+  justify-content: end;
+}
+
+section div.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  padding-top: 2rem;
+  padding-right: 3rem;
+  background-color: #414554;
+  border-radius: 2rem;
+  height: 40vh;
+  width: 35vw;
+}
+section.home div.container {
+  height: 60vh;
+}
+
+.section_title {
+  width: 80%;
+}
+.section_title h3 {
+  margin-left: 2rem;
+}
+.schedule {
+  width: 30vw;
+}
+.schedule ul {
+  width: 100%;
+}
+.schedule div {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.mtt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  padding-top: 2rem;
+  padding-right: 3rem;
+  border-radius: 2rem;
+  height: 50vh;
+  width: 50vw;
+  background-color: #414554;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  height: 10rem;
+}
