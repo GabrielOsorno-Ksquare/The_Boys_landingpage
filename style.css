@@ -55,6 +55,27 @@ nav {
   justify-content: space-evenly;
   background-color: #e0e0e0;
 }
+nav a {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+a:link {
+  color: #041562;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #e0e0e0;
+  color: black;
+}
+nav a:active {
+  background-color: #04aa6d;
+  color: white;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
 section {
   background-color: #010c28;
@@ -69,22 +90,17 @@ footer {
   height: 10rem;
 }
 
-a:link {
-  color: #041562;
-  text-decoration: none;
-}
-
 .hero_title {
   transform: rotate(-10deg);
   margin-right: 35rem;
 }
 
-section.events,
+section.asd,
 section.mtt {
   background-color: #240105;
 }
 
-.asd {
+.events {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
