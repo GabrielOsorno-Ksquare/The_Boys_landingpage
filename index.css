@@ -130,6 +130,13 @@ section#events {
   padding-bottom: 0px;
 }
 
+section#mtt{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0rem 0rem 2rem;
+}
+
 img#building {
   margin-right: 5rem;
   padding-top: 7rem;
