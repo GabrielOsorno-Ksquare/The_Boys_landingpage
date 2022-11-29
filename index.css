@@ -50,6 +50,13 @@ h4 {
   margin: 0px;
 }
 
+h5 {
+  font-size: 2.5rem;
+  font-family: 'Rubik Distressed', cursive;
+  font-weight: normal;
+  margin: 1rem 2rem 0rem 1rem;
+}
+
 br {
   margin: 5rem;
 }
@@ -96,6 +103,11 @@ a.active {
   background-color: #010c28;
   color: #ffffff;
 }
+
+.date{
+  padding: 0px;
+}
+
 .sticky {
   position: fixed;
   top: 0;
@@ -139,7 +151,7 @@ section#mtt{
 
 img#building {
   margin-right: 5rem;
-  padding-top: 7rem;
+  padding-top: 2rem;
 }
 
 section div.container {
