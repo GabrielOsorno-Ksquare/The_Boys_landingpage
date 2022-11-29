@@ -127,6 +127,12 @@ section#events {
   display: flex;
   justify-content: end;
   background-color: #950101;
+  padding-bottom: 0px;
+}
+
+img#building {
+  margin-right: 5rem;
+  padding-top: 7rem;
 }
 
 section div.container {
@@ -156,7 +162,10 @@ div.center{
 
 section.contact {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #eeeeee;
+  padding: 0rem 0rem 0rem 6rem;
 }
 
 .section_title {
