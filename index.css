@@ -141,7 +141,7 @@ section#events {
   align-items: center;
   justify-content: space-around;
   background-color: #950101;
-  height: 65vh;
+  height: 80vh;
 }
 
 section#mtt {
@@ -189,6 +189,12 @@ section.contact {
   justify-content: space-between;
   background-color: #eeeeee;
   padding: 0rem 0rem 0rem 6rem;
+  height: 80vh;
+}
+
+img#the7 {
+  overflow: hidden;
+  padding-top: 5vh;
 }
 
 .section_title {
