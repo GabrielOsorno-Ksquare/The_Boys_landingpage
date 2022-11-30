@@ -105,10 +105,13 @@ a.active {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  margin-right: 4vw;
+  width: 20%;
+  margin-left: 2vw;
+  margin-right: 2.2vw;
 }
 .date {
-  padding: 0px;
+  padding: 0;
+  margin-top: 4vh;
 }
 
 .sticky {
@@ -142,6 +145,7 @@ section#events {
   justify-content: space-around;
   background-color: #950101;
   height: 80vh;
+  padding: 0;
 }
 
 section#mtt {
@@ -150,20 +154,32 @@ section#mtt {
   justify-content: space-between;
   padding: 0rem 0rem 0rem 2rem;
 }
-
 img#building {
   overflow: hidden;
   padding-top: 4vh;
+}
+.googleMaps {
+  width: 80%;
+  height: 100%;
+  border: 0;
 }
 
 section div.container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding-bottom: 2rem;
-  padding-left: 3rem;
-  padding-top: 2rem;
-  padding-right: 3rem;
+  padding-left: 1vw;
+  padding-right: 2.5vw;
+  background-color: #950101;
+  border-radius: 2rem;
+  height: 40vh;
+  width: 52vw;
+}
+section div.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 4vh 3vw 4vh 3vw;
   background-color: #950101;
   border-radius: 2rem;
   height: 40vh;
@@ -184,16 +200,16 @@ div.center {
 }
 
 section.contact {
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #eeeeee;
+  background-color: #f0f0f0;
   padding: 0rem 0rem 0rem 6rem;
   height: 80vh;
 }
 
 img#the7 {
-  overflow: hidden;
   padding-top: 5vh;
 }
 
@@ -203,11 +219,11 @@ img#the7 {
 .section_title h3 {
   margin-left: 2rem;
 }
-.schedule {
-  width: 30vw;
-}
 .schedule ul {
-  width: 100%;
+  font-size: 0.8em;
+}
+.schedule span {
+  font-size: 0.8em;
 }
 .schedule div {
   display: flex;
@@ -215,6 +231,7 @@ img#the7 {
 }
 
 div.mtt {
+  color: #240105;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -225,7 +242,7 @@ div.mtt {
   border-radius: 2rem;
   height: 52vh;
   width: 50vw;
-  background-color: #414554;
+  background-color: #f0f0f0;
   margin-left: auto;
   margin-right: auto;
 }
@@ -244,10 +261,10 @@ div.mtt {
 }
 .mtt img {
   background-color: gray;
-  border-radius: 25%;
-  padding: 10%;
-  height: 100%;
-  width: 70%;
+  object-fit: cover;
+  border-radius: 20%;
+  height: 72%;
+  width: 76%;
   margin-bottom: 1em;
 }
 
