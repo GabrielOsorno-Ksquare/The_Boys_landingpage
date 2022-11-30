@@ -49,8 +49,6 @@ window.onscroll = () => {
 /* for each that sets a function to change navbar link styles for all navbar links when clicked */
 navbarLinks.forEach((li) => {
   li.onclick = (li) => {
-    console.log('Holiwi');
-
     navbarLinks.forEach((li2) => {
       li2.classList.remove('active');
     });
