@@ -54,7 +54,7 @@ h5 {
 }
 
 br {
-  margin: 5rem;
+  margin: 1rem;
 }
 
 nav {
@@ -178,12 +178,13 @@ section div.container {
 section div.container2 {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
   padding: 4vh 3vw 4vh 3vw;
   background-color: #950101;
   border-radius: 2rem;
-  height: 40vh;
-  width: 35vw;
+  height: 3vh;
+  width: 25vw;
 }
 section.home {
   display: flex;
@@ -213,11 +214,14 @@ img#the7 {
   padding-top: 5vh;
 }
 
-.section_title {
-  width: 80%;
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30vw;
 }
-.section_title h3 {
-  margin-left: 2rem;
+.container2 h3 a{
+  color: #f0f0f0;
 }
 .schedule ul {
   font-size: 0.8em;
@@ -266,12 +270,4 @@ div.mtt {
   height: 72%;
   width: 76%;
   margin-bottom: 1em;
-}
-
-footer {
-  height: 10rem;
-}
-.red_bar {
-  background-color: #240105;
-  height: 0.8vh;
 }
