@@ -183,11 +183,10 @@ section div.container2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 4vh 3vw 4vh 3vw;
+  padding: 3vh 5vw 3vh 5vw;
   background-color: #950101;
   border-radius: 2rem;
-  height: 3vh;
-  width: 25vw;
+  height: 12vh;
 }
 section.home {
   display: flex;
@@ -230,6 +229,7 @@ img#the7 {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding-left: 1.6%;
   width: 30vw;
 }
 .container2 h3 a {
