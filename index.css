@@ -110,6 +110,9 @@ a.active {
   margin-right: 2.2vw;
 }
 .date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 0;
   margin-top: 4vh;
 }
@@ -173,24 +176,27 @@ section div.container {
   background-color: #950101;
   border-radius: 2rem;
   height: 40vh;
-  width: 52vw;
+  width: 60vw;
 }
 section div.container2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 4vh 3vw 4vh 3vw;
+  padding: 3vh 5vw 3vh 5vw;
   background-color: #950101;
   border-radius: 2rem;
-  height: 3vh;
-  width: 25vw;
+  height: 12vh;
 }
 section.home {
   display: flex;
   padding: 2rem 0rem 0rem 2rem;
   height: 80vh;
   background-color: #010c28;
+}
+
+.section_title h3 {
+  margin-left: 2vw;
 }
 
 div.center {
@@ -206,7 +212,7 @@ section.contact {
   align-items: center;
   justify-content: space-between;
   background-color: #f0f0f0;
-  padding: 0rem 0rem 0rem 6rem;
+  padding: 0 0 0 15vw;
   height: 80vh;
 }
 
@@ -214,13 +220,19 @@ img#the7 {
   padding-top: 5vh;
 }
 
+.social-media-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .social-media {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding-left: 1.6%;
   width: 30vw;
 }
-.container2 h3 a{
+.container2 h3 a {
   color: #f0f0f0;
 }
 .schedule ul {
