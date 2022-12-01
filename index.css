@@ -110,6 +110,9 @@ a.active {
   margin-right: 2.2vw;
 }
 .date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 0;
   margin-top: 4vh;
 }
@@ -173,7 +176,7 @@ section div.container {
   background-color: #950101;
   border-radius: 2rem;
   height: 40vh;
-  width: 52vw;
+  width: 60vw;
 }
 section div.container2 {
   display: flex;
@@ -193,6 +196,10 @@ section.home {
   background-color: #010c28;
 }
 
+.section_title h3 {
+  margin-left: 2vw;
+}
+
 div.center {
   height: 55%;
   font-size: 0.85em;
@@ -206,7 +213,7 @@ section.contact {
   align-items: center;
   justify-content: space-between;
   background-color: #f0f0f0;
-  padding: 0rem 0rem 0rem 6rem;
+  padding: 0 0 0 15vw;
   height: 80vh;
 }
 
@@ -214,13 +221,18 @@ img#the7 {
   padding-top: 5vh;
 }
 
+.social-media-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .social-media {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 30vw;
 }
-.container2 h3 a{
+.container2 h3 a {
   color: #f0f0f0;
 }
 .schedule ul {
