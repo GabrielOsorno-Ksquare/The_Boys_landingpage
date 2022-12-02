@@ -1,0 +1,292 @@
+header {
+  text-align: center;
+  background-image: url(./assets/the_boys_wp.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 95.5vh;
+}
+.hero_title {
+  transform: rotate(-12deg);
+  margin-right: 35rem;
+}
+.date {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-bottom: 2vh;
+  margin-top: 4vh;
+}
+
+body {
+  margin: 0;
+  background-color: #0d0d0d;
+  color: #eeeeee;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 12vw;
+  font-family: 'Rubik Distressed', cursive;
+  font-weight: normal;
+  margin-bottom: 2rem;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  padding-top: 5.5vh;
+}
+h2 {
+  color: #eeeeee;
+  font-size: 5rem;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: normal;
+  margin: 0px;
+}
+h3 {
+  font-size: 4rem;
+  font-family: 'Rubik Glitch', cursive;
+  font-weight: normal;
+  margin: 0px;
+}
+h4 {
+  font-size: 3rem;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: normal;
+  margin: 0px;
+}
+h5 {
+  font-size: 2.5rem;
+  font-family: 'Rubik Distressed', cursive;
+  font-weight: normal;
+  margin: 1rem 2rem 0rem 1rem;
+}
+
+br {
+  margin: 1rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #eeeeee;
+  height: 4.5vh;
+}
+nav a {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  height: 100%;
+}
+nav h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 1.8em;
+}
+a:link {
+  color: #041562;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #010c28;
+  color: #ffffff;
+  -webkit-transition: background-color 150ms linear;
+  -ms-transition: background-color 150ms linear;
+  transition: background-color 150ms linear;
+
+  -webkit-transition: color 140ms linear;
+  -ms-transition: color 140ms linear;
+  transition: color 140ms linear;
+}
+nav a:active {
+  background-color: #010c28;
+  color: #ffffff;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.active {
+  background-color: #010c28;
+  color: #ffffff;
+}
+
+a.active {
+  background-color: #010c28;
+  color: #ffffff;
+}
+
+.date_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 20%;
+  margin-left: 2vw;
+  margin-right: 2.2vw;
+}
+.date2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin-top: 4vh;
+}
+
+section {
+  background-color: #010c28;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  height: 80vh;
+}
+section#events {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #950101;
+  padding: 0;
+}
+
+section#mtt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 0rem 0rem 2rem;
+}
+img#building {
+  overflow: hidden;
+  padding-top: 4vh;
+}
+.googleMaps {
+  width: 80%;
+  height: 100%;
+  border: 0;
+}
+
+section div.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 1vw;
+  padding-right: 2.5vw;
+  background-color: #950101;
+  border-radius: 2rem;
+  height: 40vh;
+  width: 60vw;
+}
+section button.container2 {
+  border: 0;
+  color: #f0f0f0;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8vh 5vw 8vh 5vw;
+  background-color: #950101;
+  border-radius: 2rem;
+  height: 12vh;
+}
+section button.container2:hover {
+  background-color: #010c28;
+}
+
+section.home {
+  display: flex;
+  padding: 2rem 0rem 0rem 2rem;
+  height: 80vh;
+  background-color: #010c28;
+}
+
+.section_title h3 {
+  margin-left: 2vw;
+}
+
+div.center {
+  height: 55%;
+  font-size: 0.85em;
+  padding-left: 7vw;
+  text-align: center;
+}
+
+section.contact {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 0 0 0 15vw;
+  height: 80vh;
+}
+
+img#the7 {
+  padding-top: 5vh;
+}
+
+.social-media-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 1.6%;
+  width: 30vw;
+}
+.container2 h3 a {
+  color: #f0f0f0;
+}
+.schedule ul {
+  font-size: 0.8em;
+}
+.schedule span {
+  font-size: 0.8em;
+}
+.schedule div {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.mtt {
+  color: #010c28;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+  padding-left: 3rem;
+  padding-top: 1.5rem;
+  padding-right: 3rem;
+  border-radius: 2rem;
+  height: 52vh;
+  width: 50vw;
+  background-color: #f0f0f0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.team_members {
+  display: flex;
+  justify-content: space-around;
+  height: 35vh;
+}
+.team_members div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 24%;
+}
+.mtt img {
+  background-color: gray;
+  object-fit: cover;
+  border-radius: 20%;
+  height: 72%;
+  width: 76%;
+  margin-bottom: 1em;
+}
