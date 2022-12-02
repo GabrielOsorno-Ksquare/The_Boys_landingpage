@@ -1,11 +1,13 @@
 /* Declaring variables */
+const body = document.querySelector('body');
 const navbar = document.querySelector('.navbar');
 const sections = document.querySelectorAll('section');
 const navbarLinks = document.querySelectorAll('nav a');
-const sticky = navbar.offsetTop;
+const sticky = body.offsetTop + 1;
 
 /* function that updates the styles for the navbar */
 const updateNavbarStyle = () => {
+  /* Updates the general navbar style */
   let currentId = '';
   let currentClass = '';
 
@@ -15,6 +17,7 @@ const updateNavbarStyle = () => {
     navbar.classList.remove('sticky');
   }
 
+  /* Updates the navbar section link style */
   sections.forEach((section) => {
     const sectionTop = section.offsetTop;
 
