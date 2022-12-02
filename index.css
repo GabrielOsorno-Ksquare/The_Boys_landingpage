@@ -3,11 +3,21 @@ header {
   background-image: url(./assets/the_boys_wp.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 95.5vh;
 }
 .hero_title {
   transform: rotate(-12deg);
   margin-right: 35rem;
+}
+.date {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-bottom: 2vh;
+  margin-top: 4vh;
 }
 
 body {
@@ -19,7 +29,7 @@ body {
 }
 
 h1 {
-  font-size: 13rem;
+  font-size: 12vw;
   font-family: 'Rubik Distressed', cursive;
   font-weight: normal;
   margin-bottom: 2rem;
@@ -95,6 +105,16 @@ nav a:active {
   background-color: #010c28;
   color: #ffffff;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.active {
+  background-color: #010c28;
+  color: #ffffff;
+}
+
 a.active {
   background-color: #010c28;
   color: #ffffff;
@@ -109,7 +129,7 @@ a.active {
   margin-left: 2vw;
   margin-right: 2.2vw;
 }
-.date {
+.date2 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -117,37 +137,17 @@ a.active {
   margin-top: 4vh;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-.sticky2 {
-  position: fixed;
-  top: 0;
-  width: 90%;
-  margin-left: 5%;
-  margin-top: 0.5rem;
-  border-radius: 2rem;
-  border-bottom-left-radius: 2rem;
-  border-bottom-right-radius: 2rem;
-}
-.active {
-  background-color: #010c28;
-  color: #ffffff;
-}
-
 section {
   background-color: #010c28;
   padding-left: 5vw;
   padding-right: 5vw;
+  height: 80vh;
 }
 section#events {
   display: flex;
   align-items: center;
   justify-content: space-around;
   background-color: #950101;
-  height: 80vh;
   padding: 0;
 }
 
@@ -178,16 +178,23 @@ section div.container {
   height: 40vh;
   width: 60vw;
 }
-section div.container2 {
+section button.container2 {
+  border: 0;
+  color: #f0f0f0;
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 3vh 5vw 3vh 5vw;
+  padding: 8vh 5vw 8vh 5vw;
   background-color: #950101;
   border-radius: 2rem;
   height: 12vh;
 }
+section button.container2:hover {
+  background-color: #010c28;
+}
+
 section.home {
   display: flex;
   padding: 2rem 0rem 0rem 2rem;
@@ -247,7 +254,7 @@ img#the7 {
 }
 
 div.mtt {
-  color: #240105;
+  color: #010c28;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
