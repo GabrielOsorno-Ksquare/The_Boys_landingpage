@@ -122,16 +122,6 @@ a.active {
   top: 0;
   width: 100%;
 }
-.sticky2 {
-  position: fixed;
-  top: 0;
-  width: 90%;
-  margin-left: 5%;
-  margin-top: 0.5rem;
-  border-radius: 2rem;
-  border-bottom-left-radius: 2rem;
-  border-bottom-right-radius: 2rem;
-}
 .active {
   background-color: #010c28;
   color: #ffffff;
