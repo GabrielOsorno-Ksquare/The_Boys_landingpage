@@ -12,7 +12,7 @@ header {
   transform: rotate(-12deg);
   margin-right: 35rem;
 }
-.date {
+.home_info {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
