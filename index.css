@@ -12,7 +12,7 @@ header {
   transform: rotate(-12deg);
   margin-right: 35rem;
 }
-.date {
+.home_info {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -75,16 +75,15 @@ nav {
   height: 4.5vh;
 }
 nav a {
-  padding-left: 3rem;
-  padding-right: 3rem;
   height: 100%;
+  width: 25vw;
 }
 nav h4 {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
-  font-size: 1.8em;
+  font-size: 1.35em;
 }
 a:link {
   color: #041562;
